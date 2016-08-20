@@ -6,6 +6,10 @@
 
 Much better that ts-node users can simply keep using ts-node as they already have, with the awesome extra testing power that power-assert gives them.
 
+## sourcemap support
+
+espower-ts-node supports source-maps. It grabs the source map produced by ts-node and passes it into espower-ts-node. All you asserts & stack traces will have the right line numbers - nothing more to do.
+
 ##usage
 
 ### calling mocha directly with ts-node as a compiler - test files distinguished by extension
