@@ -1,0 +1,18 @@
+{
+  "name": "espower-ts-node",
+  "version": "1.0.0",
+  "description": "power-assert for ts-node users",
+  "main": "index.ts",
+  "scripts": {
+  },
+  "author": "daniel.studds@tracecomms.com",
+  "license": "MIT",
+  "dependencies": {
+    "espower-source": "^1.1.0",
+    "source-map": "^0.5.6",
+    "source-map-support": "^0.4.2",
+    "typescript": "^1.8.10",
+    "typings": "^1.3.2"
+  },
+  "devDependencies": {}
+}

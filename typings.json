@@ -1,0 +1,9 @@
+{
+  "dependencies": {
+    "source-map": "registry:npm/source-map#0.4.0+20160723033700",
+    "source-map-support": "registry:npm/source-map-support#0.3.0+20160723033700"
+  },
+  "globalDependencies": {
+    "node": "registry:env/node#6.0.0+20160813135048"
+  }
+}
