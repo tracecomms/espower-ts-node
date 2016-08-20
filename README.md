@@ -16,6 +16,8 @@ espower-ts-node supports source-maps. It grabs the source map produced by ts-nod
 
 ## usage
 
+espower-ts-node will match any files which end in .test.ts, .spec.ts, or .unit.ts as well as any files in a /spec /test or /unit directory.
+
 ### calling mocha directly with ts-node as a compiler - test files distinguished by extension
 
 `mocha --compilers ts:ts-node/register,tsx:ts-node/register  --require espower-ts-node src/**/*.test.ts`
