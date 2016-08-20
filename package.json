@@ -1,6 +1,6 @@
 {
   "name": "espower-ts-node",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "power-assert for ts-node users",
   "main": "index.ts",
   "repository": "https://github.com/tracecomms/espower-ts-node",
