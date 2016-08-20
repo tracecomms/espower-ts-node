@@ -8,15 +8,21 @@ Much better that ts-node users can simply keep using ts-node as they already hav
 
 ##usage
 
-### calling mocha directly with ts-node as a compiler 
+### calling mocha directly with ts-node as a compiler - test files distinguished by extension
 
-mocha --compilers ts:ts-node/register,tsx:ts-node/register  --require espower-ts-node src/**/*.test.ts
-mocha --compilers ts:ts-node/register,tsx:ts-node/register  --require espower-ts-node test/**/*.ts
+`mocha --compilers ts:ts-node/register,tsx:ts-node/register  --require espower-ts-node src/**/*.test.ts`
 
-### passing flags to ts-node
+### calling mocha directly with ts-node as a compiler - test files distinguished by directory
 
-ts-node -D -F ./node_modules/mocha/bin/_mocha --require espower-ts-node src/**/*.test.ts
-ts-node -D -F ./node_modules/mocha/bin/_mocha --require espower-ts-node test/**/*.ts
+`mocha --compilers ts:ts-node/register,tsx:ts-node/register  --require espower-ts-node test/**/*.ts`
+
+### passing flags to ts-node - test files distinguished by extension
+
+`ts-node -D -F ./node_modules/mocha/bin/_mocha --require espower-ts-node src/**/*.test.ts`
+
+### passing flags to ts-node - test files distinguished by directory
+
+`ts-node -D -F ./node_modules/mocha/bin/_mocha --require espower-ts-node test/**/*.ts`
 
 ## I'm compiling with great.io (the latest fab js flavour) - will this work?
 
