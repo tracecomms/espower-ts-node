@@ -2,7 +2,7 @@
 
 [power-assert](https://github.com/power-assert-js/power-assert) is a really great project which makes writing expressive test much easier. It supports a lot of different javascript flavours and tools, which is great.
 
-[ts-node](https://github.com/TypeStrong/ts-node) is also a really great project that handles a lot of the basics that a project like power-assert shouldn't need to worry about. it's awkward for ts-node users to need to work out how to configure how another loader will handle typescript compilation when they've already settled on ts-node.
+[ts-node](https://github.com/TypeStrong/ts-node) is also a really great project that handles a lot of the typescript basics that a project like power-assert shouldn't need to worry about. If you want to run typescript code in node, then you should check out ts-node. it's awkward for ts-node users to need to work out how to configure how another loader will handle typescript compilation when they've already settled on ts-node.
 
 Much better that ts-node users can simply keep using ts-node as they already have, with the awesome extra testing power that power-assert gives them.
 
